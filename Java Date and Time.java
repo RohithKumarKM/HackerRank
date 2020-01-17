@@ -29,7 +29,7 @@ class Result {
        cal.set(Calendar.DAY_OF_MONTH, day);
        cal.set(Calendar.YEAR, year);
 
-       String[] day_of_week = {"SUNDAY","MONDAY","TUESDAY","WEDNESDAY","THURSDAY","FRIDAY"};
+       String[] day_of_week = {"SUNDAY","MONDAY","TUESDAY","WEDNESDAY","THURSDAY","FRIDAY","SATURDAY"};
 
        return day_of_week[cal.get(Calendar.DAY_OF_WEEK)-1];
     }
